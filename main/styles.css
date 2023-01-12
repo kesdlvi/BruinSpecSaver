@@ -1,0 +1,167 @@
+a{
+    padding: 5px;
+    font-family: "Inter";
+    color: black; 
+}
+body{
+    background-color: white;
+    height: 100px;
+}
+
+h1 {
+    padding: 15px; 
+    font-size: 25px;
+    text-align: center;
+    font-family: "Inter";
+}
+    
+
+
+/* Classes  */
+
+.button-holders {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.header{
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+/* Ids */
+
+#toggle-font-btn{
+    font-family:'Inter';
+    background:#635bff;
+    color: #fff;
+    border-radius: 17px ;
+    border: 1px solid #635bff;
+    width: 10em;
+    padding: 10px 35px;
+    margin: auto;
+
+}
+
+#toggle-font-btn:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
+
+#toggle-font-btn2{
+    font-family:'Inter';
+    font-weight: bold;
+    background: #635bff;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #635bff;
+    width: 10em;
+    transition: transform 0.3s ease;
+    padding: 10px 35px;
+    margin: auto;
+    
+}
+
+
+#toggle-font-btn2:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
+
+#toggle-font-btn3{
+    font-family:'Inter';
+    background: #635bff;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #635bff;
+    width: 10em;
+    transition: transform 0.3s ease;
+    padding: 10px 35px;
+    margin: auto;
+    
+}
+
+#toggle-font-btn3:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
+
+
+#toggle-font-btn4{
+    font-family:'Inter';
+    background:#635bff;
+    color: #fff;
+    border-radius: 17px ;
+    border: 1px solid #635bff;
+    width: 10em;
+    padding: 10px 35px;
+    margin: auto;
+
+}
+
+#toggle-font-btn4:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
+
+
+#toggle-font-btn5{
+    font-family:'Inter';
+    background:#635bff;
+    color: #fff;
+    border-radius: 17px ;
+    border: 1px solid #635bff;
+    width: 10em;
+    padding: 10px 35px;
+    margin: auto;
+
+}
+
+#toggle-font-btn5:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
+
+
+
+#toggle-font-btn-reset{
+    font-family:'Inter';
+    background: #635bff;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #635bff;
+    width: 10em;
+    transition: transform 0.3s ease;
+    padding: 10px 35px;
+    margin: auto;
+    
+}
+
+#toggle-font-btn-reset:hover {
+    background-color: #0a2540;
+    color: white;
+    transition: .5s;
+    border: 1px solid #0a2540;
+}
