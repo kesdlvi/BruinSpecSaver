@@ -1,3 +1,7 @@
+html {
+    height: 200px;
+}
+
 a{
     padding: 5px;
     font-family: "Inter";
@@ -5,16 +9,24 @@ a{
 }
 body{
     background-color: white;
-    height: 100px;
+    margin: auto;
+    padding: 5px;
 }
 
-h1 {
+/* button {
+
+} */
+
+/* h1 {
     padding: 15px; 
     font-size: 25px;
     text-align: center;
     font-family: "Inter";
-}
+    margin: auto;
     
+} */
+    
+
 
 
 /* Classes  */
@@ -23,20 +35,63 @@ h1 {
     text-align: center;
     margin: auto;
     font-size: 2rem;
-    padding: 10px;
-    padding-bottom: 50px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer {
     text-align: center;
-    padding: 10px;
+    padding-left: 10px;
+   padding-right: 10px;
+   margin: 10px;
+    
 }
 
 .header{
     margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
+
+.gradient {
+    padding: 15px; 
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Inter";
+    margin: auto;
+   
+
+ 
+ text-align: center;
+  
+ background: linear-gradient(135deg, #4be1ec, #cb5eee,  #f34a62);
+ background-size: 200% auto;
+ 
+ color: #000;
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+ animation: shine 6s  ease-in-out infinite;
+}
+
+@keyframes shine {
+    0%,
+	100% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+  }
+
+
+
 
 
 
