@@ -140,3 +140,4 @@ github.addEventListener('click', () => {
 })
 
 //create event listeners for other links 
+// checking if github works
